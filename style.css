@@ -1,0 +1,56 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: gilroy;
+}
+body,html{
+     height: 100vh;
+     width: 100vw;
+     background: linear-gradient(90deg, #ff0000, #ff00ff);
+     color: rgb(209, 228, 245);
+}
+body{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items: center;
+     justify-content: center;
+}
+h5{
+     font-size: 3.2rem;
+     padding-bottom: 1.6rem;
+}
+h1{
+     font-size: 5.5rem;
+     border-radius: 20px;
+     padding: 1rem;
+}
+button{
+     width: 30%;
+     padding: 1.2rem;
+     margin-top: 2rem;
+     border-radius: 30px;
+     border: none;
+     font-size: 2rem;
+     color: rgb(255, 255, 255);
+     font-weight: 800;
+     text-transform: capitalize;
+     background: linear-gradient(90deg, #d66d75, #e29587);
+}
+button:active{
+     scale: 0.98;
+}
+@media screen and (max-width: 768px){
+     h5{
+          font-size: 4vw;
+     }
+     h1{
+          font-size: 2.3rem;
+     }
+     button{
+          width: 50%;
+          padding: 1rem;
+          font-size: .8rem;
+     }
+}    
